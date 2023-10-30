@@ -4,6 +4,7 @@ import Faq from "./Faqs/Faq";
 import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
 import Services from "./Services/Services";
+import Testimonial from "./Testimonial/Testimonial";
 
 const LandingPage = () => {
     return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
             <Projects></Projects>
             <Faq></Faq>
             <Contact></Contact>
+            <Testimonial></Testimonial>
         </div>
     );
 };

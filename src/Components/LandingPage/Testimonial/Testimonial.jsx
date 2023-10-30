@@ -1,4 +1,4 @@
-import review from "../../../assets/review.png"
+
 import teacher from "../../../assets/ins1.jpg"
 import teacher2 from "../../../assets/ins2.jpg"
 import teacher3 from "../../../assets/ins3.jpg"
@@ -12,7 +12,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './SeventhSec.css';
+import './Testimonial.css';
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
@@ -24,7 +24,7 @@ const Testimonial = () => {
             <section className="grid grid-cols-1 lg:grid-cols-2 my-auto px-20 items-center">
 
                 <div>
-                    <img src={review} alt="" />
+                    <img src="https://img.freepik.com/free-photo/customer-experience-creative-collage_23-2149371200.jpg?size=626&ext=jpg&ga=GA1.1.1982456887.1698647917&semt=sph" alt="" />
                 </div>
 
                 <div className="">
