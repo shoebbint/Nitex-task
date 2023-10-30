@@ -1,0 +1,9 @@
+.bg-vector{
+    background-image:url("../../../assets/bg.png");
+    background-repeat:no-repeat;
+    background-position:right bottom ;
+    background-position-y:110px;
+    background-size:contain;
+
+  
+}
