@@ -25,7 +25,7 @@ const Home = () => {
                             <button className="btn bg-primary">Get Started</button>
                         </div>
     </div>
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+    <div className="container-1 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
     <Swiper
         effect={'cards'}
         grabCursor={true}

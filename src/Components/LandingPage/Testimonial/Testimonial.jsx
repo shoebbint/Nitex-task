@@ -12,14 +12,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './Testimonial.css';
+import  './Testimonial.css';
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 const Testimonial = () => {
     return (
         <div>
-                 <div className="first-sec py-12">
+                 <div className=" py-12">
             <h1 className="text-3xl font-bold title-font text-gray-900 mb-12 text-center">Testimonials</h1>
             <section className="grid grid-cols-1 lg:grid-cols-2 my-auto px-20 items-center">
 
@@ -27,7 +27,7 @@ const Testimonial = () => {
                     <img src="https://img.freepik.com/free-photo/customer-experience-creative-collage_23-2149371200.jpg?size=626&ext=jpg&ga=GA1.1.1982456887.1698647917&semt=sph" alt="" />
                 </div>
 
-                <div className="">
+                <div className="container-2">
                     <Swiper
                         slidesPerView={1}
                         spaceBetween={30}
