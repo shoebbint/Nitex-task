@@ -2,20 +2,23 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 
-import Other from './Components/Other/Other'
+
+import Header from './Components/Shared/Header/Header'
+import LandingPage from './Components/LandingPage/LandingPage'
+import Footer from './Components/Shared/Footer/Footer'
 
 function App() {
 
 
   return (
     <>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<LandingPage></LandingPage>}>
 
-    <Routes>
-      <Route path='/' element={<Other></Other>}>
- 
-      </Route>
-    </Routes>
-
+        </Route>
+      </Routes>
+      <Footer></Footer>
     </>
   )
 }

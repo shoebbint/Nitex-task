@@ -1,14 +1,14 @@
-#app { height: 100% }
-bg-primary{
+.container-1 #app { height: 100% }
+.container-1 bg-primary{
     background:#ff6647
 }
-html,
-body {
+.container-1 html,
+.container-1 body {
   position: relative;
   height: 100%;
 }
 
-body {
+.container-1 body {
   background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 
-body {
+.container-1 body {
   background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -26,13 +26,13 @@ body {
   padding: 0;
 }
 
-html,
-body {
+.container-1 html,
+.container-1 body {
   position: relative;
   height: 100%;
 }
 
-#app {
+.container-1 #app {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +41,21 @@ body {
 .container-1 .swiper  {
   width: 300px;
   height: 420px;
+}
+/* Media query for screens smaller than 600px wide */
+@media screen and (max-width: 600px) {
+  .container-1 .swiper {
+    width: 100%; /* Adjust the width as needed for smaller screens */
+    height: 380px; /* You may want to leave the height as auto for responsiveness */
+  }
+}
+
+/* Media query for screens between 600px and 1024px wide (adjust the values as needed) */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .container-1 .swiper {
+    width: 70%; /* Adjust the width as needed for medium-sized screens */
+    height: 380px; /* You may want to leave the height as auto for responsiveness */
+  }
 }
 
 .container-1 .swiper-slide {
@@ -69,26 +84,3 @@ body {
   background-color: #ff6647;
 }
 
-.container-1 .swiper-slide:nth-child(5n) {
-  background-color: rgb(118, 163, 12);
-}
-
-.container-1 .swiper-slide:nth-child(6n) {
-  background-color: rgb(180, 10, 47);
-}
-
-.container-1 .swiper-slide:nth-child(7n) {
-  background-color: rgb(35, 99, 19);
-}
-
-.container-1 .swiper-slide:nth-child(8n) {
-  background-color: rgb(0, 68, 255);
-}
-
-.container-1 .swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
-}
-
-.container-1 .swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
-}

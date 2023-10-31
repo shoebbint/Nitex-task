@@ -2,6 +2,7 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Faq from "./Faqs/Faq";
 import Home from "./Home/Home";
+// import Try from "./Home/Try";
 import Partners from "./Partners/Partners";
 import Projects from "./Projects/Projects";
 import Services from "./Services/Services";
@@ -11,6 +12,7 @@ const LandingPage = () => {
     return (
         <div>
             <Home></Home>
+            {/* <Try></Try> */}
             <About></About>
             <Services></Services>
             <Projects></Projects>

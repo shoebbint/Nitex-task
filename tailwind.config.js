@@ -9,11 +9,13 @@ export default {
       colors: {
         orange: '#FF6647',
         black: '#1F313F',
+        primary:"#ff6647",
        
       },
       backgroundColor:{
         primary:'#ff6647',
       },
+      
     },
   },
   plugins: [require('daisyui')],

@@ -1,0 +1,10 @@
+Define the initial color of the icon
+.icon{
+color: "#ff6647";
+  }
+  
+  /* Change the color of the icon when hovering over the card-body */
+  .card-body:hover .icon {
+    color: #ffff;
+  }
+  

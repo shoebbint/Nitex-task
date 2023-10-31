@@ -1,7 +1,7 @@
-
+import "./Faqs.css"
 const Faq = () => {
     return (
-        <div className="header-text w-9/12 my-20">
+        <div className="header-text w-9/12 mt-20 mb-28">
             <p className="my-5 text-orange">Some FAQ’s</p>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Questions? Look Here
 
@@ -39,7 +39,7 @@ const Faq = () => {
                         </div>
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 my-10 md:mb-0">
+                <div className="hexagon lg:max-w-lg lg:w-full md:w-1/2 w-5/6 my-10 md:mb-0">
                     <img className="object-cover object-center rounded mask mask-hexagon" alt="hero" src="https://img.freepik.com/free-photo/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_1387-310.jpg?size=626&ext=jpg&ga=GA1.1.1982456887.1698647917&semt=sph" />
                 </div>
             </div>

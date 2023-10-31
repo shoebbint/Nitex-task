@@ -1,0 +1,12 @@
+
+.hexagon {
+  /* width: 100px;
+  height: 100px; */
+  transition: width 2s, height 2s, transform 1s;
+}
+
+.hexagon:hover {
+  /* width: 300px;
+  height: 300px; */
+  transform: rotate(360deg);
+}

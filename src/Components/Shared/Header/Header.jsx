@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBar from "./NavBar/NavBar";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-
+import  "./Header.css"
 const Header = () => {
     return (
         <div className="bg-orange header relative">
