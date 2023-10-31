@@ -18,7 +18,7 @@ import  './Testimonial.css';
 import { Pagination, Navigation } from 'swiper/modules';
 const Testimonial = () => {
     return (
-        <div className="my-20 header-text w-9/12">
+        <div id="review" className="my-20 header-text w-9/12">
                  <div className=" py-12">
                  <p className="my-5 text-orange">Clients Review</p>
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">What do people say about us?

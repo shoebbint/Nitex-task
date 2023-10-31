@@ -1,7 +1,7 @@
 import './Contact.css';
 const Contact = () => {
     return (
-        <div className='bg-vector '>
+        <div id='contact' className='bg-vector '>
             <div className="header-text w-9/12 my-28">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     <div>

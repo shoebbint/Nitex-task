@@ -1,7 +1,7 @@
 import "./Faqs.css"
 const Faq = () => {
     return (
-        <div className="header-text w-9/12 mt-20 mb-28">
+        <div id="faq" className="header-text w-9/12 mt-20 mb-28">
             <p className="my-5 text-orange">Some FAQ’s</p>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Questions? Look Here
 

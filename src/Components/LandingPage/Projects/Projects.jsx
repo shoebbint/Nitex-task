@@ -7,7 +7,7 @@ AOS.init({
 });
 const Projects = () => {
     return (
-        <div className="header-text w-9/12 my-28">
+        <div id='projects' className="header-text w-9/12 my-28">
             <p className="my-5 text-orange">Our portfolio</p>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Our Latest Projects
 

@@ -6,7 +6,7 @@ import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import "./Services.css"
 const Services = () => {
     return (
-        <div className=''>
+        <div id='service' className=''>
             <div className="header-text w-9/12 mb-20">
                 <p className="my-5 text-orange">Our Services</p>
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Making Homeownership

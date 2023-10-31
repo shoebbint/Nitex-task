@@ -10,7 +10,11 @@
   
     }
   }
-  
+  @media (min-width: 480px) and (max-width: 768px) {
+    /* Your styles for .nav within the media query */
+    /* These styles will apply only when the screen width is between 480px and 768px */
+    /* Add specific styles for screens within this range here */
+  }
   @media (max-width: 480px) {
     .content {
       height:165px;

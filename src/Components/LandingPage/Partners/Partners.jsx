@@ -4,7 +4,7 @@ import img2 from "../../../assets/c.svg"
 import img3 from "../../../assets/d.svg"
 const Partners = () => {
     return (
-        <div className=" ">
+        <div id="partner" className=" ">
             <div className="header-text w-9/12 mt-10 -mb-56 z-50 mx-auto">
                 <p className="my-5 text-orange">Our team members</p>
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Connecting You to Your Perfect Home
