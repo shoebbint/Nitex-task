@@ -1,8 +1,8 @@
 import './Contact.css';
 const Contact = () => {
     return (
-<div className='bg-vector'>
-<div className="header-text w-9/12 my-20">
+<div className='bg-vector '>
+<div className="header-text w-9/12 my-10">
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 my-28 md:mb-0">
