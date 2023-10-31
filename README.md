@@ -40,7 +40,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your/repo.git
+   git clone [https://github.com/your/repo.git](https://github.com/shoebbint/Nitex-task)
 Install Dependencies:
 
 bash
