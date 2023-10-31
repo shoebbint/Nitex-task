@@ -36,15 +36,16 @@ const NavBar = () => {
                 </svg>
               </label>
               <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li>
-                  <a>About us</a>
+                  <a href="#about">About us</a>
                 </li>
-                <li><a>Services</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Page</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">Faqs</a></li>
               </ul>
             </div>
           </div>
